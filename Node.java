@@ -1,11 +1,14 @@
-package single_linked_list;
+package double_linked_list;
 
 public class Node {
-	int data;
-	Node next;
+	int data; 
+    Node prev; 
+    Node next;
 
-	public Node(int data) {
-		this.data = data;
-		this.next = null;
-	}
+    public Node(int data) {
+        this.data = data;
+        this.prev = null;
+        this.next = null;
+    }
+
 }
